@@ -1,0 +1,104 @@
+body{
+    width: 100%;
+    padding: 0px;
+}
+.head{
+    margin: 0px;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    
+}
+.head img{
+   position: absolute;
+   top: 5px;
+   left: 15px;
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+.truyen{
+    height: 70px;
+    position: absolute;
+    width: 35%;
+    top: 5px;
+   left: 90px;
+  
+}
+.truyen p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 0px;
+    float: left;
+font-size: 2.5em;
+}
+.formsearch{
+  position: absolute;
+  float:right;
+  background-color: chartreuse;
+  height: 40px;
+  width: 40%;
+  top: 15px;
+  left: 60%;
+}
+.formsearch input{
+  margin-top: 2.5px;
+  margin-left: 2.5px;
+height: 30px;
+width: 75%;
+border-radius: 5px;
+}
+.formsearch a{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 1em;
+margin-left: 10px;
+text-decoration: none;
+}
+.navbar{
+  top: 0px;
+float: left;
+  width: 70%;
+  height: 35px;
+  line-height: 35px;
+  position: absolute;
+  top: 70px;
+  left: 15%;
+}
+.navbar a{
+  color:darkblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  margin-left: 45px;
+  text-decoration: none;
+}
+
+.toptruyen{
+  width: 15%;
+  float: left;
+  position: relative;
+  
+}
+.toptruyen li{
+  font-size: 1.5em;
+  clear: both;
+  margin-top: 15px;
+  margin-left: 10%;
+  list-style: none;
+}
+.content{
+  width: 85%;
+  float: left;
+}
+.trangtruyen{
+  margin-left: 4%;
+  float: left;
+  width: 15%;
+}
+.trangtruyen p{
+  text-align: center ;
+}
+.trangtruyen img{
+  margin-top: 25px;
+  height: 240px;
+  width: 90%;
+  margin-left: 5%;
+}
