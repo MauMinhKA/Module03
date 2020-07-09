@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+iframe {
+    position: absolute;
+    float: left;
+    left: 0px;
+    top: 50px;
+}
+
+
+.container{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.onemethod {
+    width: 100%;
+    float: left;
+    height: 400px;
+    position: relative;
+}
+.chitiet {
+    background: aquamarine;
+    margin-left: 50px;
+    float: left;
+    position: absolute;
+    left: 550px;
+    top: 55px;
+}
+.line h2 {
+    float: left;
+    line-height: 50px;
+}
+
+.line input {
+    position: absolute;
+    top: 5px;
+    height: 40px;
+    font-size: 15px;
+}
+
+.line {
+    width: 40%;
+    float: left;
+    height: 50px;
+}
+

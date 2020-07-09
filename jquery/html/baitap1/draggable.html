@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="../../js/baitap1.js"></script>
+    <style>
+        #draggable {
+            border: #98bf21 2px solid;;
+            width: 150px;
+            height: 50px;
+            padding: 0.5em;
+        }
+    </style>
+    <script>
+        $(function () {
+            $("#draggable").draggable();
+        });
+    </script>
+</head>
+<body>
+
+<div id="draggable" class="ui-widget-content">
+    <p>dữ chuột để di chuyển</p>
+</div>
+
+
+</body>
+</html>
