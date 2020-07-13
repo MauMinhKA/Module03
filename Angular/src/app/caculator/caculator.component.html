@@ -1,0 +1,17 @@
+<p>caculator works!</p>
+<div>
+  <input type="number"  [(ngModel)]="first">
+  <input type="number"  [(ngModel)]="second">
+  <select  [(ngModel)]="operator">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+  </select>
+</div>
+<div>
+  <button  (click)="caculator()">OK</button>
+</div>
+<div >
+  {{output}}
+</div>
